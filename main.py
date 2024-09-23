@@ -45,7 +45,7 @@ if authorize.is_authorized(user_name, password):
         if question:
             response = service.get_answer(question)
             st.write("Answer:")
-            st.text(response['answer'])
+            st.write(response['answer'])
             st.divider()
             with st.expander("See Prompt Used"):
                 st.text(response['prompt'])
