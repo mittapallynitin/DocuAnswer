@@ -51,3 +51,5 @@ if authorize.is_authorized(user_name, password):
                 st.text(response['prompt'])
             with st.expander("See Relevant docs fetched from vector store"):
                 st.text(response['context'])
+else:
+    st.write("You are not authorized")
