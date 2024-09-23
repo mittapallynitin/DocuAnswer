@@ -1,5 +1,7 @@
+import os
+
+
 def is_authorized(user, password):
-    if user == "nitin" and password == "docuanswer":
-        return True
-    else:
-        return False
+    _user = os.environ.get('USER')
+    _password = os.environ.get('PASSWORD')
+    return user == _user and password == _password
