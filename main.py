@@ -6,7 +6,7 @@ import authorize
 import service
 
 dotenv.load_dotenv()
-st.title('Welcome to DocuAnswer')
+st.title('Welcome to DocuAnswer 📃📃')
 
 with st.form(key="Login"):
     user_name = st.text_input('Please enter your username')
