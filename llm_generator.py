@@ -50,6 +50,7 @@ def get_prompt():
     answer: From the reference stackoverflow, the most used programming language is Python
 
     Donot provide question and context in the response, just provide the answer.
+    Always provide the reference used in the response.
 
 
     Question:
